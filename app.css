@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*,
+*::before,
+*::after{
+   margin: 0;
+   padding: 0;
+   box-sizing: inherit;
+}
+
+html{
+   box-sizing: border-box;
+   font-size: 16px;
+}
+
+body{
+   background-color: #DFDFE5;
+   color: #555555;
+   font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+/* Utilitiy Classes */
+.display-f{
+   display: flex;
+}
+
+.justify-content-c{
+   justify-content: center;
+} 
+
+.align-items-c{
+   align-items: center;
+} 
+/* End Utility Classes */
+
+
+/* App Styles */
+.wrapper{
+   width: 100%;
+   height: 100vh;
+}
+
+.todo-list{
+   width: 80%;
+   margin: 0 auto;
+}
+
+.todo-list__title{
+   font-size: 1.875rem;
+}
+
+.todo-list__panel{
+   border-radius: 2.5em;
+   padding: 3.125em 1em 3.125em 2.5em;
+}
+
+.todo-list__panel--default{
+   background-color: #D5D7DF;
+}
+
+.todo-list__panel--clicked{
+   background-color: #FFFFFF;
+}
+
+.todo-list__input{
+    border: none;
+    width: 100%;
+    border-radius: 40px;
+}
+
+.todo-list__input:focus{
+   outline: none;
+}
+
+::placeholder{
+   color: #222222;
+}
+/* End App Styles */
